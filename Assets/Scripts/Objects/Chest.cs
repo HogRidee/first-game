@@ -41,7 +41,8 @@ public class Chest : MonoBehaviour, IInteractable
 
     public void SetOpened(bool opened)
     {
-        if (IsOpen == opened)
+        IsOpen = opened;
+        if (IsOpen)
         {
             GetComponent<SpriteRenderer>().sprite = m_openedSprite;
         }
