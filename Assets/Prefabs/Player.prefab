@@ -171,7 +171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3427150039632500825
 Transform:
   m_ObjectHideFlags: 0
@@ -252,6 +252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 726400602368775472}
   - component: {fileID: 7807273001170535105}
+  - component: {fileID: 6811603780220982568}
   m_Layer: 0
   m_Name: InteractionDetector
   m_TagString: Untagged
@@ -311,3 +312,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.2374546}
   m_Radius: 1
+--- !u!114 &6811603780220982568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957607600387507433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98092eb62a1b0074aad92870f0a659de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_interactionIcon: {fileID: 6226238901279284973}
