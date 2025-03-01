@@ -3,22 +3,23 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float _moveSpeed = 5f;
-    private Rigidbody2D _rb;
-    private Vector2 _moveInput;
+    [SerializeField]
+    private float m_moveSpeed = 5f;
+    private Rigidbody2D m_rb;
+    private Vector2 m_moveInput;
     
     public void Move(InputAction.CallbackContext context)
     {
-        _moveInput = context.ReadValue<Vector2>();
+        m_moveInput = context.ReadValue<Vector2>();
     }
     
     private void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        m_rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        _rb.linearVelocity = _moveInput * _moveSpeed;
+        m_rb.linearVelocity = m_moveInput * m_moveSpeed;
     }
 }
