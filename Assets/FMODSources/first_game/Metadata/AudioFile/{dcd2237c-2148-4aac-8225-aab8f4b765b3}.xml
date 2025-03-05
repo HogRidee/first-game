@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dcd2237c-2148-4aac-8225-aab8f4b765b3}">
+		<property name="assetPath">
+			<value>SFX/Monster/monster-12.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49530612244897959</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c5a8f22a-dd16-48f6-9c5f-e0dd7cc6a237}</destination>
+		</relationship>
+	</object>
+</objects>
