@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3bee6d3f-4731-4825-9dbb-65615405e12d}">
+		<property name="assetPath">
+			<value>SFX/Ventilation.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>82.36470833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c5a8f22a-dd16-48f6-9c5f-e0dd7cc6a237}</destination>
+		</relationship>
+	</object>
+</objects>
